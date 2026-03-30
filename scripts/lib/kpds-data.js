@@ -34,7 +34,7 @@ const BLOCKED_NAMES = new Set(["blocked", "차단", "blocker"]);
 
 function requireEnv() {
   if (!JIRA_EMAIL || !JIRA_TOKEN) {
-    throw new Error("Netlify environment variables JIRA_EMAIL and JIRA_TOKEN are required.");
+    throw new Error("Environment variables JIRA_EMAIL and JIRA_TOKEN are required.");
   }
 }
 

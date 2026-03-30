@@ -1,24 +1,13 @@
-const { BASE_URL, fetchDashboardPayload } = require("./_lib/kpds-data");
+const { BASE_URL, fetchDashboardPayload } = require("./lib/kpds-data");
 
 const CONFLUENCE_PAGE_ID = process.env.CONFLUENCE_PAGE_ID || "5773133029";
 const JIRA_EMAIL = process.env.JIRA_EMAIL;
 const JIRA_TOKEN = process.env.JIRA_TOKEN;
 const CONFLUENCE_BASE_URL = `${BASE_URL.replace(/\/$/, "")}/wiki`;
 
-function response(statusCode, body) {
-  return {
-    statusCode,
-    headers: {
-      "Content-Type": "application/json; charset=utf-8",
-      "Cache-Control": "no-store",
-    },
-    body: JSON.stringify(body),
-  };
-}
-
 function requireEnv() {
   if (!JIRA_EMAIL || !JIRA_TOKEN) {
-    throw new Error("Netlify environment variables JIRA_EMAIL and JIRA_TOKEN are required.");
+    throw new Error("Environment variables JIRA_EMAIL and JIRA_TOKEN are required.");
   }
 }
 
@@ -192,7 +181,7 @@ async function fetchPage() {
   return requestJson(`/rest/api/content/${CONFLUENCE_PAGE_ID}?expand=body.storage,version,title`);
 }
 
-async function syncConfluence(apply) {
+async function syncConfluence() {
   requireEnv();
 
   const [payload, page] = await Promise.all([fetchDashboardPayload(), fetchPage()]);
@@ -200,35 +189,20 @@ async function syncConfluence(apply) {
   const nextBody = renderUpdatedBody(currentBody, payload);
   const changed = currentBody !== nextBody;
 
-  if (!apply || !changed) {
-    return {
-      apply,
-      changed,
-      updated: false,
-      pageId: page.id,
-      title: page.title,
-      version: page.version?.number || 0,
-      generatedAt: payload.generatedAt,
-      modules: payload.modules.map((module) => ({
-        ticket: module.ticket,
-        status: module.parentStatusName || module.parentStatusLabel || "해야 할 일",
-        progress: module.progress,
-        total: module.total,
-        done: module.done,
-        remaining: module.remaining,
-      })),
-    };
+  if (!changed) {
+    console.log("No changes detected, skipping update.");
+    return;
   }
 
-  let updatedPage;
-
   try {
-    updatedPage = await updatePage({
+    const updatedPage = await updatePage({
       id: page.id,
       title: page.title,
       version: page.version.number,
       value: nextBody,
     });
+
+    console.log(`Confluence page updated: ${updatedPage.title} (v${updatedPage.version?.number})`);
   } catch (error) {
     if (!String(error.message || "").includes("(409)")) {
       throw error;
@@ -238,39 +212,15 @@ async function syncConfluence(apply) {
     const latestBody = latestPage.body?.storage?.value || "";
 
     if (latestBody === nextBody) {
-      return {
-        apply,
-        changed: true,
-        updated: false,
-        conflictResolved: true,
-        pageId: latestPage.id,
-        title: latestPage.title,
-        version: latestPage.version?.number || 0,
-        generatedAt: payload.generatedAt,
-      };
+      console.log("Conflict resolved: page already has the expected content.");
+      return;
     }
 
     throw error;
   }
-
-  return {
-    apply,
-    changed,
-    updated: true,
-    pageId: updatedPage.id,
-    title: updatedPage.title,
-    version: updatedPage.version?.number || page.version.number + 1,
-    generatedAt: payload.generatedAt,
-  };
 }
 
-exports.handler = async function handler(event = {}) {
-  try {
-    const apply = event.queryStringParameters?.apply === "1";
-    return response(200, await syncConfluence(apply));
-  } catch (error) {
-    return response(500, {
-      error: error instanceof Error ? error.message : String(error),
-    });
-  }
-};
+syncConfluence().catch((error) => {
+  console.error("Confluence sync failed:", error.message);
+  process.exit(1);
+});

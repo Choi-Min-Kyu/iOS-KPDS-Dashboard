@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-03-30T00:00:00.000Z",
+  "epic": {
+    "ticket": "KMA-6396",
+    "status": "todo",
+    "statusLabel": "해야 할 일",
+    "statusName": "해야 할 일",
+    "url": "https://kurly0521.atlassian.net/browse/KMA-6396"
+  },
+  "summary": {
+    "moduleCount": 6,
+    "childCount": 0,
+    "total": 0,
+    "done": 0,
+    "inProgress": 0,
+    "blocked": 0,
+    "remaining": 0,
+    "progress": 0
+  },
+  "modules": []
+}

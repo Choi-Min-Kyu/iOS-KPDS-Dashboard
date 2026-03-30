@@ -210,7 +210,7 @@
     }
 
     async function fetchDashboardData() {
-      const response = await fetch('/.netlify/functions/jira-dashboard', {
+      const response = await fetch('./data/dashboard.json', {
         cache: 'no-store',
       });
       const payload = await response.json();
