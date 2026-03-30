@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>iOS KPDS 진행 현황 보드</title>
+<style>
+  :root {
+    --bg: #eef7fb;
+    --panel: #f7fbfd;
+    --ink: #183247;
+    --muted: #6f8da3;
+    --line: #d8e6ef;
+    --bar: #71b7d6;
+    --bar-soft: #dceff8;
+    --ok: #69b7a0;
+    --warn: #d9a56a;
+    --shadow: 0 18px 50px rgba(56, 102, 140, 0.12);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at top left, rgba(113,183,214,0.22), transparent 28%),
+      linear-gradient(180deg, #f7fcff 0%, var(--bg) 100%);
+  }
+  .page {
+    width: min(1280px, calc(100vw - 48px));
+    margin: 32px auto 72px;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .panel {
+    background: rgba(247,251,253,0.88);
+    border: 1px solid rgba(216,230,239,0.82);
+    border-radius: 28px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+  }
+  .hero-copy {
+    padding: 32px;
+  }
+  h1 {
+    margin: 0 0 14px;
+    font-size: clamp(36px, 4vw, 60px);
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+  }
+  .sub {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 24px;
+  }
+  .stat {
+    background: rgba(255,255,255,0.7);
+    border: 1px solid rgba(216,230,239,0.68);
+    border-radius: 18px;
+    padding: 16px;
+  }
+  .stat-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); }
+  .stat-value { margin-top: 8px; font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .chart-panel {
+    padding: 26px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bars {
+    width: 100%;
+    display: grid;
+    gap: 16px;
+  }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 156px 1fr 64px;
+    align-items: center;
+    gap: 14px;
+  }
+  .bar-label {
+    min-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+  }
+  .track {
+    height: 18px;
+    background: var(--bar-soft);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+  }
+  .fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #d98a5c 0%, var(--bar) 100%);
+  }
+  .bar-value {
+    min-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .modules {
+    display: grid;
+    gap: 16px;
+  }
+  details.module,
+  .module-static {
+    border-radius: 24px;
+    border: 1px solid rgba(216,230,239,0.82);
+    background: rgba(247,251,253,0.88);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  details.module[open],
+  .module-static { background: rgba(255, 253, 248, 0.94); }
+  summary {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding: 22px 76px 22px 24px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before {
+    content: "";
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--muted);
+    border-right: 2px solid var(--muted);
+    transform: translateY(-50%) rotate(45deg);
+    transform-origin: center;
+    transition: transform 0.18s ease;
+    z-index: 1;
+  }
+  summary::after {
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.9);
+    border: 1px solid rgba(216,230,239,0.9);
+    box-shadow: 0 8px 18px rgba(56, 102, 140, 0.12);
+    transform: translateY(-50%);
+  }
+  details.module[open] summary::before {
+    transform: translateY(-50%) rotate(135deg);
+  }
+  .module-head {
+    display: grid;
+    grid-template-columns: minmax(280px, 1fr) 64px minmax(260px, 360px) 104px 20px minmax(88px, 140px);
+    gap: 10px;
+    align-items: center;
+  }
+  .module-static-head {
+    padding: 22px 76px 22px 24px;
+  }
+  .module-copy {
+    min-width: 0;
+    display: grid;
+    gap: 4px;
+  }
+  .module-title { font-size: 22px; font-weight: 700; }
+  .module-meta {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
+    color: var(--muted);
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .ticket {
+    color: var(--muted);
+    font-size: 13px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .ticket-link,
+  .child-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .ticket-link:hover,
+  .child-link:hover {
+    text-decoration: underline;
+  }
+  .percent {
+    justify-self: end;
+    width: 64px;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+  }
+  .mini-track {
+    width: 100%;
+    height: 12px;
+    background: var(--bar-soft);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .module-head > .mini-track {
+    width: calc(100% - 12px);
+    justify-self: start;
+  }
+  .mini-fill { height: 100%; background: linear-gradient(90deg, #d98a5c 0%, var(--bar) 100%); }
+  .module-summary {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .module-badge {
+    justify-self: stretch;
+    transform: translateX(-12px);
+  }
+  .module-avatar {
+    justify-self: start;
+    transform: translateX(-12px);
+  }
+  .module-assignee {
+    justify-self: start;
+    width: auto;
+    text-align: left;
+    white-space: nowrap;
+    transform: translateX(-12px);
+  }
+  .child-badge { justify-self: stretch; }
+  .child-avatar { justify-self: start; }
+  .child-assignee {
+    justify-self: start;
+    width: auto;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .module-body {
+    padding: 0 24px 24px;
+    display: block;
+    border-top: 1px solid rgba(216,230,239,0.74);
+  }
+  .child-list {
+    padding-top: 20px;
+    display: grid;
+    gap: 12px;
+    max-height: 816px;
+    overflow-y: auto;
+    padding-right: 18px;
+    scrollbar-gutter: stable both-edges;
+  }
+  .child-list::-webkit-scrollbar { width: 10px; }
+  .child-list::-webkit-scrollbar-track {
+    background: rgba(220,239,248,0.9);
+    border-radius: 999px;
+  }
+  .child-list::-webkit-scrollbar-thumb {
+    background: rgba(113,183,214,0.8);
+    border-radius: 999px;
+  }
+  .child {
+    display: grid;
+    grid-template-columns: minmax(280px, 1fr) 64px minmax(260px, 360px) 104px 20px minmax(88px, 140px);
+    gap: 16px;
+    align-items: center;
+    padding: 14px 16px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(216,230,239,0.68);
+  }
+  .child-copy { display: grid; gap: 4px; min-width: 0; }
+  .child-name {
+    font-weight: 600;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .child-meta { color: var(--muted); font-size: 12px; }
+  .child-pct {
+    justify-self: end;
+    width: 64px;
+    text-align: right;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    aspect-ratio: 1 / 1;
+    border-radius: 999px;
+    overflow: hidden;
+    flex: 0 0 20px;
+    background: rgba(220,239,248,0.9);
+  }
+  .avatar img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .avatar-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #4f7890;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0;
+    background: linear-gradient(180deg, #e8f4fa 0%, #dceff8 100%);
+  }
+  .avatar-icon {
+    width: 12px;
+    height: 12px;
+    display: block;
+  }
+  .avatar-icon path { fill: #5f7d92; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 104px;
+    border-radius: 999px;
+    padding: 7px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+  .assignee {
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .done { background: rgba(45,127,94,0.12); color: var(--ok); }
+  .progress { background: rgba(113,183,214,0.16); color: var(--bar); }
+  .review { background: rgba(122, 169, 214, 0.18); color: #4d7da8; }
+  .qa { background: rgba(105,183,160,0.18); color: #4f8f7c; }
+  .blocked { background: rgba(217,165,106,0.18); color: var(--warn); }
+  .todo { background: rgba(111,141,163,0.16); color: var(--muted); }
+  .state-message {
+    padding: 18px 20px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.72);
+    border: 1px dashed rgba(216,230,239,0.8);
+    color: var(--muted);
+  }
+  .state-message.error {
+    border-style: solid;
+    border-color: rgba(217,165,106,0.5);
+    color: #7d5832;
+    background: rgba(255,249,242,0.92);
+  }
+  @media (max-width: 980px) {
+    .hero { grid-template-columns: 1fr; }
+    .module-head { grid-template-columns: 1fr; }
+    .child { grid-template-columns: 1fr; }
+    .bar-row { grid-template-columns: 132px 1fr 56px; }
+    .stats { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <section class="hero">
+      <div class="panel hero-copy">
+        <h1>Design System V2</h1>
+        <p class="sub">Design System 적용을 위한 SwiftUI Migration 진행 상황입니다.</p>
+        <div class="stats">
+          <div class="stat"><div class="stat-label">Task</div><div class="stat-value" id="module-count">-</div></div>
+          <div class="stat"><div class="stat-label">Epic 상태</div><div class="stat-value" id="epic-status">불러오는 중</div></div>
+          <div class="stat"><div class="stat-label">티켓</div><div class="stat-value" id="epic-ticket">-</div></div>
+        </div>
+      </div>
+      <div class="panel chart-panel">
+        <div class="bars" id="overall-bars"><div class="state-message">진행 현황을 불러오는 중입니다.</div></div>
+      </div>
+    </section>
+
+    <section class="modules" id="modules"><div class="state-message">모듈 상세를 불러오는 중입니다.</div></section>
+  </div>
+
+<script>
+const overallBars = document.getElementById('overall-bars');
+const modulesRoot = document.getElementById('modules');
+const moduleCountNode = document.getElementById('module-count');
+const epicStatusNode = document.getElementById('epic-status');
+const epicTicketNode = document.getElementById('epic-ticket');
+
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function assigneeLabel(value) {
+  return value || 'Unassigned';
+}
+
+function assigneeAvatarMarkup(assignee, avatarUrl = '') {
+  const label = escapeHtml(assigneeLabel(assignee));
+  if (avatarUrl) {
+    return `<span class="avatar"><img src="${escapeHtml(avatarUrl)}" alt="${label}"></span>`;
+  }
+
+  return `<span class="avatar"><span class="avatar-fallback"><svg class="avatar-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12.25a4.25 4.25 0 1 0 0-8.5 4.25 4.25 0 0 0 0 8.5Zm0 1.75c-4.1 0-7.5 2.23-7.5 4.94 0 .45.37.81.81.81H18.7c.45 0 .8-.36.8-.8 0-2.72-3.4-4.95-7.5-4.95Z"/></svg></span></span>`;
+}
+
+function setErrorState(message) {
+  const safe = escapeHtml(message);
+  overallBars.innerHTML = `<div class="state-message error">${safe}</div>`;
+  modulesRoot.innerHTML = `<div class="state-message error">${safe}</div>`;
+  epicStatusNode.textContent = '확인 필요';
+}
+
+function renderSummary(payload) {
+  moduleCountNode.textContent = `${payload.summary.moduleCount}개`;
+  epicStatusNode.textContent = payload.epic.statusLabel || payload.epic.statusName;
+  epicTicketNode.textContent = payload.epic.ticket;
+}
+
+function renderBars(modules) {
+  overallBars.innerHTML = modules.map((item) => `
+    <div class="bar-row">
+      <div class="bar-label">${escapeHtml(item.name)}</div>
+      <div class="track"><div class="fill" style="width:${item.progress}%"></div></div>
+      <div class="bar-value">${item.progress}%</div>
+    </div>
+  `).join('');
+}
+
+function renderModuleHeader(item) {
+  return `
+    <div class="module-head">
+      <div class="module-copy">
+        <div class="module-title">${escapeHtml(item.name)}</div>
+        <div class="module-meta">
+          <a class="ticket ticket-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.ticket)}</a>
+          <span class="ticket module-summary">( 전체 ${item.total} / 완료 ${item.done} / 잔여 ${item.remaining} )</span>
+        </div>
+      </div>
+      <div class="percent">${item.progress}%</div>
+      <div class="mini-track"><div class="mini-fill" style="width:${item.progress}%"></div></div>
+      <div class="badge module-badge ${escapeHtml(item.parentStatus || 'todo')}">${escapeHtml(item.parentStatusLabel || '해야 할 일')}</div>
+      <div class="module-avatar">${assigneeAvatarMarkup(item.parentAssignee, item.parentAvatarUrl)}</div>
+      <div class="assignee module-assignee">${escapeHtml(assigneeLabel(item.parentAssignee))}</div>
+    </div>
+  `;
+}
+
+function renderChildren(children) {
+  return children.map((child) => `
+    <div class="child">
+      <div class="child-copy">
+        <div class="child-name"><a class="child-link" href="${escapeHtml(child.url)}" target="_blank" rel="noreferrer">${escapeHtml(child.name)}</a></div>
+        <div class="child-meta">${escapeHtml(child.key)}</div>
+      </div>
+      <div class="child-pct">${child.progress}%</div>
+      <div class="mini-track"><div class="mini-fill" style="width:${child.progress}%"></div></div>
+      <div class="badge child-badge ${escapeHtml(child.status)}">${escapeHtml(child.statusLabel)}</div>
+      <div class="child-avatar">${assigneeAvatarMarkup(child.assignee, child.avatarUrl)}</div>
+      <div class="assignee child-assignee">${escapeHtml(assigneeLabel(child.assignee))}</div>
+    </div>
+  `).join('');
+}
+
+function renderModules(modules) {
+  modulesRoot.innerHTML = modules.map((item, index) => {
+    const header = renderModuleHeader(item);
+
+    if (!item.children.length) {
+      return `
+        <section class="module-static">
+          <div class="module-static-head">${header}</div>
+        </section>
+      `;
+    }
+
+    return `
+      <details class="module" ${index < 2 ? 'open' : ''}>
+        <summary>${header}</summary>
+        <div class="module-body">
+          <div class="child-list">${renderChildren(item.children)}</div>
+        </div>
+      </details>
+    `;
+  }).join('');
+}
+
+async function fetchDashboardData() {
+  const response = await fetch('/.netlify/functions/jira-dashboard', {
+    cache: 'no-store',
+  });
+  const payload = await response.json();
+
+  if (!response.ok) {
+    throw new Error(payload.error || 'Jira 데이터를 불러오지 못했습니다.');
+  }
+
+  return payload;
+}
+
+async function loadDashboard() {
+  try {
+    const payload = await fetchDashboardData();
+    renderSummary(payload);
+    renderBars(payload.modules);
+    renderModules(payload.modules);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Jira 데이터를 불러오지 못했습니다.';
+    setErrorState(message);
+  }
+}
+
+loadDashboard();
+window.setInterval(loadDashboard, 60_000);
+</script>
+</body>
+</html>

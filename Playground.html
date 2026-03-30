@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Playground</title>
+<style>
+  :root {
+    --panel: rgba(247, 251, 253, 0.94);
+    --panel-strong: rgba(255, 253, 248, 0.96);
+    --ink: #183247;
+    --muted: #6f8da3;
+    --line: rgba(216, 230, 239, 0.82);
+    --bar: #71b7d6;
+    --bar-soft: #dceff8;
+    --shadow: 0 18px 50px rgba(56, 102, 140, 0.12);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--ink);
+  }
+
+  body {
+    display: inline-block;
+  }
+
+  .frame {
+    width: 596px;
+    padding: 12px;
+  }
+
+  .modules {
+    display: grid;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+  }
+
+  .module {
+    background: transparent;
+  }
+
+  .module + .module {
+    border-top: 1px solid rgba(216, 230, 239, 0.72);
+  }
+
+  .module-head {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) 180px auto;
+    gap: 12px;
+    align-items: center;
+    padding: 12px 16px;
+  }
+
+  .module-copy {
+    min-width: 0;
+  }
+
+  .module-title {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+
+  .module-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .ticket,
+  .module-summary {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .track {
+    width: 100%;
+    height: 12px;
+    margin-left: -30px;
+    margin-right: 6px;
+    background: var(--bar-soft);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #d98a5c 0%, var(--bar) 100%);
+  }
+
+  .module-percent {
+    font-size: 20px;
+    line-height: 0.9;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    margin-left: -4px;
+  }
+
+  .state {
+    padding: 18px 20px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  .state.error {
+    color: #b05757;
+  }
+
+  @media (max-width: 860px) {
+    .frame {
+      width: min(100vw, 596px);
+      padding: 12px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .module-head {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+
+    .module-meta {
+      display: grid;
+      gap: 6px;
+      white-space: normal;
+    }
+
+    .module-percent {
+      font-size: 18px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="modules" id="modules">
+      <div class="state">샘플 그래프를 불러오는 중입니다.</div>
+    </div>
+  </div>
+
+  <script>
+    const modulesNode = document.getElementById('modules');
+    const fallbackModules = [
+      { name: '검색 (Search)', ticket: 'KMA-6417', progress: 38, total: 101, done: 0, remaining: 101 },
+      { name: 'Recommendation', ticket: 'KMA-6566', progress: 36, total: 102, done: 0, remaining: 102 },
+      { name: 'List', ticket: 'KMA-6670', progress: 35, total: 35, done: 0, remaining: 35 },
+      { name: 'Product List', ticket: 'KMA-6706', progress: 34, total: 50, done: 0, remaining: 50 },
+      { name: 'Detail (상품 상세)', ticket: 'KMA-6760', progress: 34, total: 139, done: 0, remaining: 139 },
+      { name: 'AI Guide', ticket: 'KMA-7031', progress: 70, total: 1, done: 0, remaining: 1 },
+    ];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function renderState(message, className = 'state') {
+      modulesNode.innerHTML = `<div class="${className}">${escapeHtml(message)}</div>`;
+    }
+
+    function renderModules(modules) {
+      modulesNode.innerHTML = modules.map((item) => `
+        <section class="module">
+          <div class="module-head">
+            <div class="module-copy">
+              <h2 class="module-title">${escapeHtml(item.name)}</h2>
+              <div class="module-meta">
+                <span class="ticket">${escapeHtml(item.ticket)}</span>
+                <span class="module-summary">( 전체 ${item.total} / 완료 ${item.done} / 잔여 ${item.remaining} )</span>
+              </div>
+            </div>
+            <div class="track">
+              <div class="fill" style="width: ${item.progress}%"></div>
+            </div>
+            <div class="module-percent">${item.progress}%</div>
+          </div>
+        </section>
+      `).join('');
+    }
+
+    async function fetchDashboardData() {
+      const response = await fetch('/.netlify/functions/jira-dashboard', {
+        cache: 'no-store',
+      });
+      const payload = await response.json();
+
+      if (!response.ok) {
+        throw new Error(payload.error || 'Jira 데이터를 불러오지 못했습니다.');
+      }
+
+      return payload;
+    }
+
+    async function loadGraph() {
+      if (window.location.protocol === 'file:') {
+        renderModules(fallbackModules);
+        return;
+      }
+
+      try {
+        const payload = await fetchDashboardData();
+        renderModules(payload.modules);
+      } catch (error) {
+        const message = error instanceof Error ? error.message : 'Jira 데이터를 불러오지 못했습니다.';
+        renderState(message, 'state error');
+      }
+    }
+
+    loadGraph();
+    window.setInterval(loadGraph, 60_000);
+  </script>
+</body>
+</html>
