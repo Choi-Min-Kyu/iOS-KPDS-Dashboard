@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T00:00:21.491Z",
+  "generatedAt": "2026-03-31T03:26:17.478Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "progress",
@@ -5247,7 +5247,7 @@
       "parentStatusLabel": "해야 할 일",
       "parentStatusName": "DONE",
       "parentAssignee": "조태형 프로덕트앱개발",
-      "parentAvatarUrl": "https://secure.gravatar.com/avatar/0258799f9a47188cacf968c9bbc10bba?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-6.png"
+      "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/64003281c6e77744a1dd1318/c6ed8ecf-8d64-4420-ad07-2e9e04745eaa/24"
     }
   ]
 }
