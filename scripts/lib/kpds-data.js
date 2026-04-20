@@ -106,11 +106,11 @@ function classifyStatus(status = {}) {
     return "qa";
   }
 
-  if (category === "Done") {
+  if (category === "Done" || upper === "DONE") {
     return "done";
   }
 
-  if (statusName === "진행 중" || category === "In Progress") {
+  if (statusName === "진행 중" || category === "In Progress" || upper === "IN PROGRESS") {
     return "progress";
   }
 
