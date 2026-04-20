@@ -42,4 +42,4 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet data/dashboard.json || (gitadd data/dashboard.json && git commit -m "chore: update dashboard data" && git pull --rebase && git push)
+          git diff --quiet data/dashboard.json || (git add data/dashboard.json && git commit -m "chore: update dashboard data" && git pull --rebase && git push)
