@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T04:38:54.235Z",
+  "generatedAt": "2026-06-30T08:21:15.215Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "progress",
@@ -1245,8 +1245,8 @@
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
       "parentStatusName": "해야 할 일",
-      "parentAssignee": "Unassigned",
-      "parentAvatarUrl": ""
+      "parentAssignee": "송준수 프로덕트앱개발",
+      "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
     {
       "name": "Recommendation",
@@ -2487,8 +2487,8 @@
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
       "parentStatusName": "해야 할 일",
-      "parentAssignee": "Unassigned",
-      "parentAvatarUrl": ""
+      "parentAssignee": "송준수 프로덕트앱개발",
+      "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
     {
       "name": "List",
@@ -2925,8 +2925,8 @@
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
       "parentStatusName": "해야 할 일",
-      "parentAssignee": "Unassigned",
-      "parentAvatarUrl": ""
+      "parentAssignee": "송준수 프로덕트앱개발",
+      "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
     {
       "name": "Product List",
@@ -3543,8 +3543,8 @@
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
       "parentStatusName": "해야 할 일",
-      "parentAssignee": "Unassigned",
-      "parentAvatarUrl": ""
+      "parentAssignee": "송준수 프로덕트앱개발",
+      "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
     {
       "name": "Detail (상품 상세)",
@@ -5229,8 +5229,8 @@
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
       "parentStatusName": "해야 할 일",
-      "parentAssignee": "Unassigned",
-      "parentAvatarUrl": ""
+      "parentAssignee": "송준수 프로덕트앱개발",
+      "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
     {
       "name": "AI Guide",
