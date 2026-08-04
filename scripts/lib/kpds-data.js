@@ -4,11 +4,7 @@ const JIRA_TOKEN = process.env.JIRA_TOKEN;
 
 const EPIC_TICKET = "KMA-6396";
 const MODULES = [
-  { name: "검색 (Search)", ticket: "KMA-6417" },
-  { name: "Recommendation", ticket: "KMA-6566" },
-  { name: "List", ticket: "KMA-6670" },
-  { name: "Product List", ticket: "KMA-6706" },
-  { name: "Detail (상품 상세)", ticket: "KMA-6760" },
+  { name: "홈/전시", ticket: "KMA-9139" },
   { name: "AI Guide", ticket: "KMA-7031" },
 ];
 
