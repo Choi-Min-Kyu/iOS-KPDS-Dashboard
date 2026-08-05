@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T23:16:48.673Z",
+  "generatedAt": "2026-08-05T00:50:46.322Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "progress",
@@ -12,7 +12,7 @@
     "childCount": 25,
     "total": 26,
     "done": 1,
-    "inProgress": 0,
+    "inProgress": 1,
     "blocked": 0,
     "remaining": 25,
     "progress": 4
@@ -23,20 +23,20 @@
       "ticket": "KMA-9139",
       "done": 0,
       "remaining": 25,
-      "inProgress": 0,
+      "inProgress": 1,
       "blocked": 0,
       "total": 25,
-      "progress": 0,
+      "progress": 2,
       "children": [
         {
           "key": "KMA-9140",
           "name": "[기반] 공용 상품카드 · 임프레션 브리지 · async 어댑터 · 성능 프로토타입",
-          "progress": 0,
-          "status": "todo",
-          "statusLabel": "해야 할 일",
+          "progress": 45,
+          "status": "progress",
+          "statusLabel": "진행 중",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:16.369+0900",
+          "updated": "2026-08-05T09:49:50.947+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9140"
         },
