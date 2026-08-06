@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T23:56:31.094Z",
+  "generatedAt": "2026-08-06T03:26:56.422Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "progress",
@@ -11,11 +11,11 @@
     "moduleCount": 2,
     "childCount": 25,
     "total": 26,
-    "done": 1,
+    "done": 0,
     "inProgress": 1,
     "blocked": 0,
-    "remaining": 25,
-    "progress": 4
+    "remaining": 26,
+    "progress": 0
   },
   "modules": [
     {
@@ -339,17 +339,17 @@
     {
       "name": "AI Guide",
       "ticket": "KMA-7031",
-      "done": 1,
-      "remaining": 0,
+      "done": 0,
+      "remaining": 1,
       "inProgress": 0,
       "blocked": 0,
       "total": 1,
-      "progress": 100,
+      "progress": 0,
       "children": [],
       "url": "https://kurly0521.atlassian.net/browse/KMA-7031",
-      "parentStatus": "done",
-      "parentStatusLabel": "DONE",
-      "parentStatusName": "DONE",
+      "parentStatus": "todo",
+      "parentStatusLabel": "해야 할 일",
+      "parentStatusName": "CLOSE",
       "parentAssignee": "조태형 프로덕트앱개발",
       "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/64003281c6e77744a1dd1318/c6ed8ecf-8d64-4420-ad07-2e9e04745eaa/24"
     }
