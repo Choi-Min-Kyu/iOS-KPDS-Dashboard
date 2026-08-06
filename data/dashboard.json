@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-06T11:33:36.395Z",
+  "generatedAt": "2026-08-06T13:15:54.693Z",
   "epic": {
     "ticket": "KMA-6396",
-    "status": "progress",
-    "statusLabel": "진행 중",
-    "statusName": "진행 중",
+    "status": "todo",
+    "statusLabel": "해야 할 일",
+    "statusName": "개발 중",
     "url": "https://kurly0521.atlassian.net/browse/KMA-6396"
   },
   "summary": {
@@ -12,7 +12,7 @@
     "childCount": 25,
     "total": 26,
     "done": 0,
-    "inProgress": 1,
+    "inProgress": 0,
     "blocked": 0,
     "remaining": 26,
     "progress": 0
@@ -23,20 +23,20 @@
       "ticket": "KMA-9139",
       "done": 0,
       "remaining": 25,
-      "inProgress": 1,
+      "inProgress": 0,
       "blocked": 0,
       "total": 25,
-      "progress": 2,
+      "progress": 0,
       "children": [
         {
           "key": "KMA-9140",
           "name": "[기반] 공용 상품카드 · 임프레션 브리지 · async 어댑터 · 성능 프로토타입",
-          "progress": 45,
-          "status": "progress",
-          "statusLabel": "진행 중",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-05T09:49:50.947+0900",
+          "updated": "2026-08-06T21:09:01.443+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9140"
         },
@@ -48,7 +48,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:22.119+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9141"
         },
@@ -60,7 +60,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:28.093+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9142"
         },
@@ -72,7 +72,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:34.285+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9143"
         },
@@ -84,7 +84,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:40.966+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9144"
         },
@@ -96,7 +96,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:47.106+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9145"
         },
@@ -108,7 +108,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:30:54.250+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9146"
         },
@@ -120,7 +120,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:31:20.790+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9147"
         },
@@ -132,7 +132,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:31:26.575+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9148"
         },
@@ -144,7 +144,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:31:33.222+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9149"
         },
@@ -156,7 +156,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:31:39.217+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9150"
         },
@@ -168,7 +168,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:31:45.406+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9151"
         },
@@ -180,7 +180,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:31:51.412+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9152"
         },
@@ -192,7 +192,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:32:00.984+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9153"
         },
@@ -204,7 +204,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:32:08.937+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9154"
         },
@@ -216,7 +216,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:32:39.505+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9155"
         },
@@ -228,7 +228,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:32:45.763+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9156"
         },
@@ -240,7 +240,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:32:52.490+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9157"
         },
@@ -252,7 +252,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:32:58.736+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9158"
         },
@@ -264,7 +264,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:33:06.020+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9159"
         },
@@ -276,7 +276,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:36:28.273+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9160"
         },
@@ -288,7 +288,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:36:42.165+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9161"
         },
@@ -300,7 +300,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:36:48.378+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9162"
         },
@@ -312,7 +312,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:36:58.947+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9163"
         },
@@ -324,15 +324,15 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-04T11:37:09.525+0900",
+          "updated": "2026-08-06T21:12:37.556+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9164"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
-      "parentStatus": "progress",
-      "parentStatusLabel": "진행 중",
-      "parentStatusName": "진행 중",
+      "parentStatus": "todo",
+      "parentStatusLabel": "해야 할 일",
+      "parentStatusName": "개발 중",
       "parentAssignee": "송준수 프로덕트앱개발",
       "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
@@ -349,7 +349,7 @@
       "url": "https://kurly0521.atlassian.net/browse/KMA-7031",
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
-      "parentStatusName": "CLOSE",
+      "parentStatusName": "완료",
       "parentAssignee": "조태형 프로덕트앱개발",
       "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/64003281c6e77744a1dd1318/c6ed8ecf-8d64-4420-ad07-2e9e04745eaa/24"
     }
