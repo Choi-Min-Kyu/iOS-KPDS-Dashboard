@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T00:38:19.968Z",
+  "generatedAt": "2026-08-10T02:59:22.080Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -36,7 +36,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-10T09:37:16.074+0900",
+          "updated": "2026-08-10T09:53:16.132+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9140"
         },
