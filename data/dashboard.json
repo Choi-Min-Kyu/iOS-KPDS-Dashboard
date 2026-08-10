@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T23:44:19.974Z",
+  "generatedAt": "2026-08-10T00:38:19.968Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -30,13 +30,13 @@
       "children": [
         {
           "key": "KMA-9140",
-          "name": "[기반] 공용 상품카드 · 임프레션 브리지 · async 어댑터 · 성능 프로토타입",
+          "name": "[기반] 팀 병렬 작업 준비 — 규칙 확정·공용 이음새 동결·레퍼런스 섹션·검증 하네스",
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-06T21:09:01.443+0900",
+          "updated": "2026-08-10T09:37:16.074+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9140"
         },
