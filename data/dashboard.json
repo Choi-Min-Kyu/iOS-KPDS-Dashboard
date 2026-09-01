@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:27:04.112Z",
+  "generatedAt": "2026-09-01T06:43:24.392Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -58,9 +58,9 @@
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
-          "assignee": "송준수 프로덕트앱개발",
-          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-06T21:12:37.556+0900",
+          "assignee": "최민규 프로덕트앱개발",
+          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
+          "updated": "2026-09-01T14:08:08.830+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9142"
         },
@@ -192,7 +192,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-08-06T21:12:37.556+0900",
+          "updated": "2026-09-01T10:51:29.898+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9153"
         },
@@ -344,7 +344,7 @@
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
       "parentStatus": "todo",
       "parentStatusLabel": "해야 할 일",
-      "parentStatusName": "QA 대응",
+      "parentStatusName": "개발 중",
       "parentAssignee": "송준수 프로덕트앱개발",
       "parentAvatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24"
     },
