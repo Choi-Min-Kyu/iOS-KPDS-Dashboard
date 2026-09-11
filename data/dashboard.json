@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T23:13:17.346Z",
+  "generatedAt": "2026-09-11T01:11:05.315Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -60,7 +60,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-09T10:04:13.713+0900",
+          "updated": "2026-09-11T09:41:57.871+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9142"
         },
@@ -72,7 +72,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-09T10:04:14.119+0900",
+          "updated": "2026-09-11T09:42:01.724+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9143"
         },
@@ -84,7 +84,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-09T10:04:14.699+0900",
+          "updated": "2026-09-11T09:42:05.372+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9144"
         },
