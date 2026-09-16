@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:58:41.717Z",
+  "generatedAt": "2026-09-16T01:19:56.373Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 26,
-    "total": 27,
+    "childCount": 27,
+    "total": 28,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 27,
+    "remaining": 28,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 26,
+      "remaining": 27,
       "inProgress": 0,
       "blocked": 0,
-      "total": 26,
+      "total": 27,
       "progress": 0,
       "children": [
         {
@@ -48,7 +48,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-09-14T17:25:16.759+0900",
+          "updated": "2026-09-16T09:34:15.250+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9141"
         },
@@ -339,6 +339,18 @@
           "updated": "2026-08-31T17:59:23.815+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9778"
+        },
+        {
+          "key": "KMA-10130",
+          "name": "[iOS] SwiftUI 마이그레이션 홈 화면 롤백 플랜 설계",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-09-16T09:21:14.048+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10130"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
