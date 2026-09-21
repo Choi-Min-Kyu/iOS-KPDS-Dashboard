@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:42:04.120Z",
+  "generatedAt": "2026-09-21T00:32:53.513Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -96,7 +96,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-09-17T14:36:07.109+0900",
+          "updated": "2026-09-21T09:29:19.342+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9145"
         },
