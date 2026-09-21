@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T00:32:53.513Z",
+  "generatedAt": "2026-09-21T05:26:18.862Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -60,7 +60,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-18T17:50:33.930+0900",
+          "updated": "2026-09-21T09:52:54.497+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9142"
         },
@@ -72,7 +72,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-18T17:55:39.461+0900",
+          "updated": "2026-09-21T09:52:54.888+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9143"
         },
@@ -84,7 +84,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-17T17:22:52.274+0900",
+          "updated": "2026-09-21T09:52:56.021+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9144"
         },
@@ -228,7 +228,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-17T17:23:42.732+0900",
+          "updated": "2026-09-21T10:05:06.487+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9156"
         },
