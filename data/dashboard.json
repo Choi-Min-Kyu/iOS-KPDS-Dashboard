@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T06:14:31.155Z",
+  "generatedAt": "2026-09-29T13:06:01.851Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 28,
-    "total": 29,
+    "childCount": 29,
+    "total": 30,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 29,
+    "remaining": 30,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 28,
+      "remaining": 29,
       "inProgress": 0,
       "blocked": 0,
-      "total": 28,
+      "total": 29,
       "progress": 0,
       "children": [
         {
@@ -48,7 +48,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송준수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-09-22T16:37:54.448+0900",
+          "updated": "2026-09-29T21:14:18.306+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9141"
         },
@@ -60,7 +60,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-22T16:38:15.580+0900",
+          "updated": "2026-09-29T21:14:34.972+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9142"
         },
@@ -72,7 +72,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-22T16:38:45.491+0900",
+          "updated": "2026-09-29T21:14:41.842+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9143"
         },
@@ -84,7 +84,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "최민규 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:b151ac0f-4d96-429a-961d-56efd4847d73/d6f56508-ca73-4a20-aa9b-c6638d05b6f0/24",
-          "updated": "2026-09-22T16:39:00.872+0900",
+          "updated": "2026-09-29T21:14:48.615+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9144"
         },
@@ -132,7 +132,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-09-17T14:36:36.765+0900",
+          "updated": "2026-09-29T15:22:44.210+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9148"
         },
@@ -228,7 +228,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-28T10:04:47.082+0900",
+          "updated": "2026-09-29T21:14:55.680+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9156"
         },
@@ -360,9 +360,21 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-29T11:24:19.113+0900",
+          "updated": "2026-09-29T17:31:58.905+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10382"
+        },
+        {
+          "key": "KMA-10438",
+          "name": "[섹션] today-products 셀 재사용 시 캐러셀 스크롤 위치가 간헐적으로 첫 카드로 초기화되는 문제 수정 (SwiftUI)",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-09-29T15:53:16.138+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10438"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
