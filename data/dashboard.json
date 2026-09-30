@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T07:27:56.167Z",
+  "generatedAt": "2026-09-30T14:10:31.032Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -216,7 +216,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이규현 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/616f8e32860f78006bbc5560/8c48d001-d1b8-45d0-ba65-c01db21c063c/24",
-          "updated": "2026-09-17T14:37:12.125+0900",
+          "updated": "2026-09-30T16:52:37.430+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9155"
         },
@@ -360,7 +360,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-29T17:31:58.905+0900",
+          "updated": "2026-09-30T16:39:58.515+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10382"
         },
