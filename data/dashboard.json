@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T23:09:04.496Z",
+  "generatedAt": "2026-10-01T02:10:25.587Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -96,7 +96,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-09-29T09:26:09.812+0900",
+          "updated": "2026-10-01T09:56:00.972+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9145"
         },
@@ -108,7 +108,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-09-17T14:36:30.256+0900",
+          "updated": "2026-10-01T10:38:21.541+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9146"
         },
@@ -120,7 +120,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-09-29T01:05:30.646+0900",
+          "updated": "2026-10-01T10:38:21.918+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9147"
         },
@@ -132,7 +132,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-09-29T15:22:44.210+0900",
+          "updated": "2026-10-01T10:38:21.025+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9148"
         },
@@ -372,7 +372,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-30T10:07:42.069+0900",
+          "updated": "2026-10-01T10:04:11.533+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10438"
         },
