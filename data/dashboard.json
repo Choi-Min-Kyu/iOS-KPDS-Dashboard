@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T08:59:55.874Z",
+  "generatedAt": "2026-10-01T16:20:14.852Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -384,7 +384,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이규현 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/616f8e32860f78006bbc5560/8c48d001-d1b8-45d0-ba65-c01db21c063c/24",
-          "updated": "2026-10-01T07:51:31.208+0900",
+          "updated": "2026-10-01T18:21:53.289+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10485"
         }
