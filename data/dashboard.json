@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T21:09:43.961Z",
+  "generatedAt": "2026-10-02T00:48:57.497Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 30,
-    "total": 31,
+    "childCount": 32,
+    "total": 33,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 31,
+    "remaining": 33,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 30,
+      "remaining": 32,
       "inProgress": 0,
       "blocked": 0,
-      "total": 30,
+      "total": 32,
       "progress": 0,
       "children": [
         {
@@ -96,7 +96,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-10-01T13:33:28.720+0900",
+          "updated": "2026-10-02T08:23:46.833+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9145"
         },
@@ -108,7 +108,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-10-01T17:14:28.068+0900",
+          "updated": "2026-10-02T08:23:45.682+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9146"
         },
@@ -120,7 +120,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-10-01T10:38:21.918+0900",
+          "updated": "2026-10-02T08:23:46.157+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9147"
         },
@@ -132,7 +132,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-10-01T17:45:17.642+0900",
+          "updated": "2026-10-02T08:23:44.931+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9148"
         },
@@ -144,7 +144,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-30T16:12:18.390+0900",
+          "updated": "2026-10-02T08:23:45.266+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9149"
         },
@@ -156,7 +156,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-01T17:04:01.713+0900",
+          "updated": "2026-10-02T09:07:27.208+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9150"
         },
@@ -180,7 +180,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이의석 넥스트컨버전",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/60f14540cc1f7000712cebcf/ba2bf245-6833-43df-9644-5f6477c8a5a1/24",
-          "updated": "2026-09-17T14:37:00.759+0900",
+          "updated": "2026-10-02T08:23:44.150+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9152"
         },
@@ -216,7 +216,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이규현 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/616f8e32860f78006bbc5560/8c48d001-d1b8-45d0-ba65-c01db21c063c/24",
-          "updated": "2026-10-01T17:28:07.314+0900",
+          "updated": "2026-10-02T08:23:46.482+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9155"
         },
@@ -387,6 +387,30 @@
           "updated": "2026-10-01T18:21:53.289+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10485"
+        },
+        {
+          "key": "KMA-10487",
+          "name": "[iOS] 홈섹션 캐로셀 Scroll 복원 로직 최적화",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "손지영 프로덕트앱개발",
+          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
+          "updated": "2026-10-02T09:11:40.595+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10487"
+        },
+        {
+          "key": "KMA-10555",
+          "name": "[iOS] HomeProductCardLayout Text Layout KPDS 적용",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "손지영 프로덕트앱개발",
+          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
+          "updated": "2026-10-02T09:17:23.408+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10555"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
