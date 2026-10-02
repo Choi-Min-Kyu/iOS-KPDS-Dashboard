@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T00:48:57.497Z",
+  "generatedAt": "2026-10-02T06:25:04.047Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 32,
-    "total": 33,
+    "childCount": 33,
+    "total": 34,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 33,
+    "remaining": 34,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 32,
+      "remaining": 33,
       "inProgress": 0,
       "blocked": 0,
-      "total": 32,
+      "total": 33,
       "progress": 0,
       "children": [
         {
@@ -96,7 +96,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-10-02T08:23:46.833+0900",
+          "updated": "2026-10-02T15:24:07.965+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9145"
         },
@@ -120,7 +120,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "홍승호 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61d23acfbce5e000691ab3c5/949fc65b-ae67-41f5-ba99-f6f3e1a6c846/24",
-          "updated": "2026-10-02T08:23:46.157+0900",
+          "updated": "2026-10-02T13:16:31.193+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9147"
         },
@@ -348,7 +348,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-09-17T13:42:54.295+0900",
+          "updated": "2026-10-02T13:43:09.537+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10130"
         },
@@ -396,7 +396,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-10-02T09:11:40.595+0900",
+          "updated": "2026-10-02T15:15:19.570+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10487"
         },
@@ -408,9 +408,21 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-10-02T09:17:23.408+0900",
+          "updated": "2026-10-02T15:07:18.084+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10555"
+        },
+        {
+          "key": "KMA-10566",
+          "name": "[iOS] Panel (ListVC) 탭의 상품 카드 (LargeProductItemCell) 마이그레이션",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-02T14:53:37.981+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10566"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
