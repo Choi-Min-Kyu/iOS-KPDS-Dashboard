@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T00:12:00.116Z",
+  "generatedAt": "2026-10-06T06:29:10.862Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 34,
-    "total": 35,
+    "childCount": 33,
+    "total": 34,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 35,
+    "remaining": 34,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 34,
+      "remaining": 33,
       "inProgress": 0,
       "blocked": 0,
-      "total": 34,
+      "total": 33,
       "progress": 0,
       "children": [
         {
@@ -144,7 +144,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-02T08:23:45.266+0900",
+          "updated": "2026-10-06T10:10:26.752+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9149"
         },
@@ -156,7 +156,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-02T09:07:27.208+0900",
+          "updated": "2026-10-06T10:10:25.934+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9150"
         },
@@ -365,18 +365,6 @@
           "url": "https://kurly0521.atlassian.net/browse/KMA-10382"
         },
         {
-          "key": "KMA-10438",
-          "name": "[섹션] today-products 셀 재사용 시 캐러셀 스크롤 위치가 간헐적으로 첫 카드로 초기화되는 문제 수정 (SwiftUI)",
-          "progress": 0,
-          "status": "todo",
-          "statusLabel": "해야 할 일",
-          "assignee": "송다인 프로덕트앱개발",
-          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-01T10:04:11.533+0900",
-          "priority": "Medium",
-          "url": "https://kurly0521.atlassian.net/browse/KMA-10438"
-        },
-        {
           "key": "KMA-10485",
           "name": "[iOS] SwiftUI 마이그레이션 킷 회고와 문제점 정리",
           "progress": 0,
@@ -420,7 +408,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-02T14:53:37.981+0900",
+          "updated": "2026-10-06T10:06:20.494+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10566"
         },
@@ -432,7 +420,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-06T09:09:58.852+0900",
+          "updated": "2026-10-06T10:10:25.542+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10568"
         }
