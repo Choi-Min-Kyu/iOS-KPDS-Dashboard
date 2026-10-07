@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:59:17.849Z",
+  "generatedAt": "2026-10-07T02:16:16.892Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -166,9 +166,9 @@
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
-          "assignee": "최주영 프로덕트앱개발",
-          "avatarUrl": "https://secure.gravatar.com/avatar/50a756aae1d9877f3d1ac604c76502e5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-5.png",
-          "updated": "2026-09-17T14:44:58.036+0900",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-07T10:58:04.445+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9151"
         },
