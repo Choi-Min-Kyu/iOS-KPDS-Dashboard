@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T02:16:16.892Z",
+  "generatedAt": "2026-10-07T08:53:18.694Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 33,
-    "total": 34,
+    "childCount": 34,
+    "total": 35,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 34,
+    "remaining": 35,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 33,
+      "remaining": 34,
       "inProgress": 0,
       "blocked": 0,
-      "total": 33,
+      "total": 34,
       "progress": 0,
       "children": [
         {
@@ -216,7 +216,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이규현 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/616f8e32860f78006bbc5560/8c48d001-d1b8-45d0-ba65-c01db21c063c/24",
-          "updated": "2026-10-02T08:23:46.482+0900",
+          "updated": "2026-10-07T16:36:34.483+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9155"
         },
@@ -423,6 +423,18 @@
           "updated": "2026-10-06T10:10:25.542+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10568"
+        },
+        {
+          "key": "KMA-10627",
+          "name": "[iOS] SwiftUI 홈 섹션 높이 계산 최적화",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-07T17:45:08.523+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10627"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
