@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T01:55:38.148Z",
+  "generatedAt": "2026-10-12T09:01:50.335Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -168,7 +168,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-12T10:07:52.443+0900",
+          "updated": "2026-10-12T14:55:56.439+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9151"
         },
@@ -190,9 +190,9 @@
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
-          "assignee": "송준수 프로덕트앱개발",
-          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-09-17T14:38:57.620+0900",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-12T14:36:36.273+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9153"
         },
@@ -202,9 +202,9 @@
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
-          "assignee": "송준수 프로덕트앱개발",
-          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-09-17T14:38:47.734+0900",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-12T14:36:45.032+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9154"
         },
@@ -252,7 +252,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "김종수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:552eb8dc-aa3a-45af-9332-9ec017a3f317/6c1a6b42-e7a6-4a5b-b3df-ba030eba465d/24",
-          "updated": "2026-09-17T14:38:41.508+0900",
+          "updated": "2026-10-12T17:32:07.527+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9158"
         },
@@ -264,7 +264,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "김종수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:552eb8dc-aa3a-45af-9332-9ec017a3f317/6c1a6b42-e7a6-4a5b-b3df-ba030eba465d/24",
-          "updated": "2026-09-17T14:38:35.028+0900",
+          "updated": "2026-10-12T15:07:17.272+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9159"
         },
@@ -274,9 +274,9 @@
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
-          "assignee": "송준수 프로덕트앱개발",
-          "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/6274ca537de1ec00695b423e/213f3ba0-ac47-4a64-a6de-763638549df7/24",
-          "updated": "2026-09-17T14:39:06.470+0900",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-12T14:43:38.607+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9160"
         },
@@ -438,13 +438,13 @@
         },
         {
           "key": "KMA-10680",
-          "name": "[iOS] SwiftUI 홈 셀 이미지 페이드 제거 (KPDS ImageView → KurlyImage)",
+          "name": "[iOS] SwiftUI hitch 제거 - 홈 셀 이미지 페이드 제거",
           "progress": 0,
           "status": "todo",
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-12T10:09:11.562+0900",
+          "updated": "2026-10-12T14:55:37.796+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10680"
         }
