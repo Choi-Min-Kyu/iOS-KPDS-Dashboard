@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T04:32:43.013Z",
+  "generatedAt": "2026-10-19T10:15:16.058Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 36,
-    "total": 37,
+    "childCount": 37,
+    "total": 38,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 37,
+    "remaining": 38,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 36,
+      "remaining": 37,
       "inProgress": 0,
       "blocked": 0,
-      "total": 36,
+      "total": 37,
       "progress": 0,
       "children": [
         {
@@ -459,6 +459,18 @@
           "updated": "2026-10-16T10:32:12.793+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10719"
+        },
+        {
+          "key": "KMA-10851",
+          "name": "[iOS] SwiftUI 깜빡임 제거 - KurlyImage 메모리 캐시 이미지를 첫 프레임부터 표시",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-19T17:37:06.947+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-10851"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
