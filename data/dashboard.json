@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T22:25:47.191Z",
+  "generatedAt": "2026-10-21T00:49:01.043Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -480,7 +480,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-20T09:31:01.612+0900",
+          "updated": "2026-10-21T09:26:10.325+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10875"
         }
