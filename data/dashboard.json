@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T00:49:01.043Z",
+  "generatedAt": "2026-10-21T05:31:37.920Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -168,7 +168,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-16T10:32:22.288+0900",
+          "updated": "2026-10-21T13:48:39.111+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9151"
         },
@@ -180,7 +180,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이의석 넥스트컨버전",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/60f14540cc1f7000712cebcf/ba2bf245-6833-43df-9644-5f6477c8a5a1/24",
-          "updated": "2026-10-16T10:32:22.972+0900",
+          "updated": "2026-10-21T13:55:41.833+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9152"
         },
@@ -192,7 +192,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-20T18:04:09.869+0900",
+          "updated": "2026-10-21T13:48:37.863+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9153"
         },
@@ -204,7 +204,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-16T10:32:21.935+0900",
+          "updated": "2026-10-21T13:48:38.678+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9154"
         },
@@ -240,7 +240,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "손지영 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:9a135367-788c-4272-b76f-634a7f842146/30f6c171-3867-4863-aa8e-2ee433de4eaf/24",
-          "updated": "2026-10-16T10:32:23.733+0900",
+          "updated": "2026-10-21T13:48:40.568+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9157"
         },
@@ -252,7 +252,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "김종수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:552eb8dc-aa3a-45af-9332-9ec017a3f317/6c1a6b42-e7a6-4a5b-b3df-ba030eba465d/24",
-          "updated": "2026-10-15T17:07:28.925+0900",
+          "updated": "2026-10-21T13:48:41.435+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9158"
         },
@@ -264,7 +264,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "김종수 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:552eb8dc-aa3a-45af-9332-9ec017a3f317/6c1a6b42-e7a6-4a5b-b3df-ba030eba465d/24",
-          "updated": "2026-10-15T17:07:28.150+0900",
+          "updated": "2026-10-21T13:48:39.854+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-9159"
         },
