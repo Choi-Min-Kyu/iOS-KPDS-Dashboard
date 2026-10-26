@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T00:38:46.278Z",
+  "generatedAt": "2026-10-26T05:21:10.745Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 38,
-    "total": 39,
+    "childCount": 39,
+    "total": 40,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 39,
+    "remaining": 40,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 38,
+      "remaining": 39,
       "inProgress": 0,
       "blocked": 0,
-      "total": 38,
+      "total": 39,
       "progress": 0,
       "children": [
         {
@@ -483,6 +483,18 @@
           "updated": "2026-10-22T17:29:31.075+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10875"
+        },
+        {
+          "key": "KMA-11018",
+          "name": "[iOS] 범용 패널 마감세일(closing_sale) template에 상품 노출/클릭/전체보기 이벤트에서 collection_id 추가",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-10-26T13:39:22.816+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-11018"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
