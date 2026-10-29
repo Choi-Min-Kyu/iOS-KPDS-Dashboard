@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:32:53.949Z",
+  "generatedAt": "2026-10-29T02:49:15.781Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 39,
-    "total": 40,
+    "childCount": 36,
+    "total": 37,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 40,
+    "remaining": 37,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 39,
+      "remaining": 36,
       "inProgress": 0,
       "blocked": 0,
-      "total": 39,
+      "total": 36,
       "progress": 0,
       "children": [
         {
@@ -269,18 +269,6 @@
           "url": "https://kurly0521.atlassian.net/browse/KMA-9159"
         },
         {
-          "key": "KMA-9160",
-          "name": "[공통] [팀작업 X]  배너 전체보기 화면 SwiftUI 전환",
-          "progress": 0,
-          "status": "todo",
-          "statusLabel": "해야 할 일",
-          "assignee": "송다인 프로덕트앱개발",
-          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-16T10:32:19.276+0900",
-          "priority": "Medium",
-          "url": "https://kurly0521.atlassian.net/browse/KMA-9160"
-        },
-        {
           "key": "KMA-9161",
           "name": "[컨테이너] Panel(ListViewController) 셀 통합 마무리",
           "progress": 0,
@@ -353,18 +341,6 @@
           "url": "https://kurly0521.atlassian.net/browse/KMA-10130"
         },
         {
-          "key": "KMA-10382",
-          "name": "[iOS] SwiftUI 마이그레이션 킷 검증 단계 자동화",
-          "progress": 0,
-          "status": "todo",
-          "statusLabel": "해야 할 일",
-          "assignee": "송다인 프로덕트앱개발",
-          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-14T14:46:51.715+0900",
-          "priority": "Medium",
-          "url": "https://kurly0521.atlassian.net/browse/KMA-10382"
-        },
-        {
           "key": "KMA-10485",
           "name": "[iOS] SwiftUI 마이그레이션 킷 회고와 문제점 정리",
           "progress": 0,
@@ -372,7 +348,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "이규현 프로덕트앱개발",
           "avatarUrl": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/616f8e32860f78006bbc5560/8c48d001-d1b8-45d0-ba65-c01db21c063c/24",
-          "updated": "2026-10-01T18:21:53.289+0900",
+          "updated": "2026-10-29T10:44:26.136+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-10485"
         },
@@ -473,18 +449,6 @@
           "url": "https://kurly0521.atlassian.net/browse/KMA-10851"
         },
         {
-          "key": "KMA-10875",
-          "name": "[iOS] 홈 SwiftUI 성능 측정 스킬 추가 (xctrace Animation Hitches · SwiftUI 템플릿)",
-          "progress": 0,
-          "status": "todo",
-          "statusLabel": "해야 할 일",
-          "assignee": "송다인 프로덕트앱개발",
-          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-22T17:29:31.075+0900",
-          "priority": "Medium",
-          "url": "https://kurly0521.atlassian.net/browse/KMA-10875"
-        },
-        {
           "key": "KMA-11018",
           "name": "[iOS] 범용 패널 마감세일(closing_sale) template에 상품 노출/클릭/전체보기 이벤트에서 collection_id 추가",
           "progress": 0,
@@ -492,7 +456,7 @@
           "statusLabel": "해야 할 일",
           "assignee": "송다인 프로덕트앱개발",
           "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
-          "updated": "2026-10-28T17:38:32.239+0900",
+          "updated": "2026-10-29T10:00:58.747+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-11018"
         }
