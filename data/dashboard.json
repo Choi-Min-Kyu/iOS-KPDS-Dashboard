@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-03T01:48:03.834Z",
+  "generatedAt": "2026-11-03T08:41:56.014Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
     "statusLabel": "해야 할 일",
-    "statusName": "개발 중",
+    "statusName": "작업취소",
     "url": "https://kurly0521.atlassian.net/browse/KMA-6396"
   },
   "summary": {
