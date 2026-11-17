@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T03:01:39.782Z",
+  "generatedAt": "2026-11-17T11:42:34.826Z",
   "epic": {
     "ticket": "KMA-6396",
     "status": "todo",
@@ -9,12 +9,12 @@
   },
   "summary": {
     "moduleCount": 2,
-    "childCount": 37,
-    "total": 38,
+    "childCount": 38,
+    "total": 39,
     "done": 0,
     "inProgress": 0,
     "blocked": 0,
-    "remaining": 38,
+    "remaining": 39,
     "progress": 0
   },
   "modules": [
@@ -22,10 +22,10 @@
       "name": "홈/전시",
       "ticket": "KMA-9139",
       "done": 0,
-      "remaining": 37,
+      "remaining": 38,
       "inProgress": 0,
       "blocked": 0,
-      "total": 37,
+      "total": 38,
       "progress": 0,
       "children": [
         {
@@ -471,6 +471,18 @@
           "updated": "2026-11-13T14:41:03.325+0900",
           "priority": "Medium",
           "url": "https://kurly0521.atlassian.net/browse/KMA-11254"
+        },
+        {
+          "key": "KMA-11743",
+          "name": "[iOS] GROUP_COLLECTION_PRODUCT_NUMBER 섹션 상품 우상단 이미지 스티커 노출",
+          "progress": 0,
+          "status": "todo",
+          "statusLabel": "해야 할 일",
+          "assignee": "송다인 프로덕트앱개발",
+          "avatarUrl": "https://secure.gravatar.com/avatar/0749cdff0e49bc8b17a4f75dd2e3dce5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault%2Fdefault-avatar-2.png",
+          "updated": "2026-11-17T17:29:41.320+0900",
+          "priority": "Medium",
+          "url": "https://kurly0521.atlassian.net/browse/KMA-11743"
         }
       ],
       "url": "https://kurly0521.atlassian.net/browse/KMA-9139",
